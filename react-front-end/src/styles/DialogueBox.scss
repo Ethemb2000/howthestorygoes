@@ -1,0 +1,50 @@
+.dialogue-box {
+  display: flex;
+  flex-direction: column;
+  font-family: "VT323", monospace;
+  background-color: #eef0e0;
+  border: solid;
+  border-image: url("/assets/borderbox-earth.png") 25 / 10px 10px 10px 10px
+    stretch;
+  font-size: 1.5rem;
+  width: 100%;
+  color: #384048;
+
+  p {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  div {
+    display: flex;
+  }
+
+  .dialogue-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: "VT323", monospace;
+    font-size: 1.3rem;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    align-self: flex-end;
+    align-items: center;
+    background-color: #cbc8ac;
+    outline: 0;
+    color: #384048;
+  }
+
+  .link-map {
+    text-decoration: none;
+  }
+
+  .dialogue-buttons:hover {
+    background-color: #deddcb;
+  }
+
+  #back-to-map {
+    margin-right: 2em;
+    width: 8%;
+    align-self: flex-end;
+  }
+}

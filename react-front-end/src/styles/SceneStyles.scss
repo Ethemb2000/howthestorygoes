@@ -1,0 +1,123 @@
+.scene {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-end;
+  align-items: center;
+
+  img {
+    width: 100%;
+    height: 77%;
+  }
+}
+.background1 {
+  border: 10px solid white;
+  background-image: url("/assets/oldman.png");
+  background-size: 100% 100%;
+  box-shadow: 8px 8px 20px 10px #1c2024;
+}
+
+.background2 {
+  border: 10px solid white;
+  background-image: url("/assets/desert.png");
+  background-size: 100% 100%;
+  box-shadow: 8px 8px 20px 10px #1c2024;
+}
+
+.background3 {
+  border: 10px solid white;
+  background-image: url("/assets/grassland.jpg");
+  background-size: 100% 100%;
+  box-shadow: 8px 8px 20px 10px #1c2024;
+}
+
+.background4 {
+  border: 10px solid white;
+  background-image: url("/assets/greattree.png");
+  background-size: 100% 100%;
+  box-shadow: 8px 8px 20px 10px #1c2024;
+}
+
+.background5 {
+  border: 10px solid white;
+  background-image: url("/assets/temple.png");
+  background-size: 100% 100%;
+  box-shadow: 8px 8px 20px 10px #1c2024;
+}
+
+.background6 {
+  border: 10px solid white;
+  background-image: url("/assets/gameover.png");
+  background-size: 100% 100%;
+  box-shadow: 8px 8px 20px 10px #1c2024;
+}
+
+.gameover {
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/gameover.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  iframe {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+  }
+}
+.play-again {
+  font-family: "VT323", monospace;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #c3c5c8;
+  margin-bottom: 2rem;
+}
+
+.play-again:hover {
+  background-color: #ebebec;
+}
+
+.victory {
+  width: 100%;
+  height: 100%;
+  background-image: url("/assets/victory.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  a {
+    text-decoration: none;
+  }
+}
+
+#play-again-victory {
+  font-family: "VT323", monospace;
+  font-size: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #c3c5c8;
+  margin-bottom: 2rem;
+  text-decoration: none;
+  cursor: pointer;
+  display: none;
+}
+
+#play-again-victory:hover {
+  background-color: #ebebec;
+}
